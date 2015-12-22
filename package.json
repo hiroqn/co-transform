@@ -1,31 +1,38 @@
 {
   "name": "co-transform",
-  "version": "1.0.0",
   "description": "stream.Transform with generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hiroqn/co-transform.git"
-  },
-  "keywords": [
-    "stream",
-    "transform"
-  ],
+  "version": "1.0.0",
   "author": "hiroqn",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiroqn/co-transform/issues"
   },
-  "homepage": "https://github.com/hiroqn/co-transform#readme",
   "devDependencies": {
     "ava": "^0.8.0",
     "xo": "^0.12.1"
   },
   "engines": {
     "node": ">=4.0.0"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "test.js"
+  ],
+  "homepage": "https://github.com/hiroqn/co-transform#readme",
+  "keywords": [
+    "stream",
+    "transform"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroqn/co-transform.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
   },
   "xo": {
     "esnext": true,
