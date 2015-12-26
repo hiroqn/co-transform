@@ -1,6 +1,6 @@
 # co-transform
 stream.Transform with generator
-
+[![NPM](https://nodei.co/npm/co-transform.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/co-transform/)
 #Usage
 
 `transform(generator, options)`
