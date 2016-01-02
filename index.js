@@ -1,7 +1,7 @@
 'use strict';
 const Transform = require('stream').Transform;
 
-module.exports = function (generator, options) {
+const transform = module.exports = function (generator, options) {
   const stream = new Transform(options);
   let result;
   let error = null;
@@ -38,3 +38,9 @@ module.exports = function (generator, options) {
   }
   return stream;
 };
+
+transform.string = (generator, options) =>
+ transform(generator, Object.assign(options || {}, {decodeStrings: false}));
+
+transform.object = (generator, options) =>
+  transform(generator, Object.assign(options || {}, {objectMode: true}));
