@@ -1,7 +1,7 @@
 {
   "name": "co-transform",
   "description": "stream.Transform with generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "hiroqn",
   "bugs": {
     "url": "https://github.com/hiroqn/co-transform/issues"
