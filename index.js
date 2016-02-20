@@ -2,7 +2,7 @@
 const Transform = require('stream').Transform;
 
 const transform = module.exports = function (generator, options) {
-  const stream = new Transform(options);
+  const stream = new Transform(options || {});
   let result;
   let error = null;
   const iterator = generator.call(Object.assign(stream, {
